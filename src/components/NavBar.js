@@ -9,8 +9,12 @@ class NavBar extends Component {
             <p>logo</p>
           </div>
           <div className="right-content">
-            <i class="fab fa-github" />
-            <i class="fab fa-linkedin" />
+            <a href="https://github.com/shinnot" target="_blank">
+              <i className="fab fa-github" /> GitHub
+            </a>
+            <a href="#">
+              <i className="fab fa-linkedin" /> Linkedin
+            </a>
           </div>
         </nav>
       </div>
