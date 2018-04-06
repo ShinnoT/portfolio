@@ -13,7 +13,11 @@ class NavBar extends Component {
             </a>
           </div>
           <div className="right-content">
-            <a href="https://github.com/shinnot" target="_blank">
+            <a
+              href="https://github.com/shinnot"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github" /> GitHub
             </a>
             <a href="#">
