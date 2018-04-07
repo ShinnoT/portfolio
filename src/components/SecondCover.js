@@ -25,7 +25,7 @@ class SecondCover extends Component {
       });
     };
     let yScrollPosition = window.scrollY;
-    setTranslate(0, yScrollPosition * 0.3);
+    setTranslate(0, yScrollPosition * 0.35);
     requestAnimationFrame(this.scrollLoop);
   }
 
