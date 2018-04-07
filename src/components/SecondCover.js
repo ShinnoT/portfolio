@@ -32,7 +32,20 @@ class SecondCover extends Component {
   render() {
     return (
       <div className="SecondCover">
-        <h1>second cover</h1>
+        <div className="content">
+          <div className="info">
+            <h1>Yes I like flamingos.</h1>
+            <h2>But, I also like code.</h2>
+          </div>
+          <div className="languages">
+            <p>JavaScript</p>
+            <p>Node.js</p>
+            <p>Ruby on Rails</p>
+            <p>R</p>
+            <p>CSS</p>
+            <p>HTML</p>
+          </div>
+        </div>
         <div
           className="initials"
           // ref={this.initials}
