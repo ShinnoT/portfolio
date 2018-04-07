@@ -1,0 +1,10 @@
+@import "./variables.scss";
+
+.Footer {
+  background: $brand-pink;
+  p {
+    padding: 5px 15px;
+    font-size: 12px;
+    color: white;
+  }
+}

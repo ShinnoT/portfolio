@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
 
-const flamingo = require("./../white-flamingo.svg");
-const flamingoTwo = require("./../white-flamingo2.svg");
+// const flamingo = require("./../white-flamingo.svg");
+// const flamingoTwo = require("./../white-flamingo2.svg");
 const flamingoThree = require("./../flamingo-3.svg");
 
 const params = {

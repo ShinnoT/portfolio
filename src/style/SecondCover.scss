@@ -1,5 +1,18 @@
 .SecondCover {
   //   width: 100vw;
+  position: relative;
   height: 100vh;
-  background-color: red;
+  background-color: #7d82b8;
+  .initials {
+    background-image: url("./../initials.svg");
+    background-size: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: top right;
+    top: 0;
+    opacity: 0.5;
+  }
 }

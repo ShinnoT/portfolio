@@ -8,7 +8,7 @@ class NavBar extends Component {
       <div className="NavBar">
         <nav className="navbar">
           <div className="left-content">
-            <a href="#">
+            <a href="localhost:3000">
               <img src={logo} alt="logo" />
             </a>
           </div>
@@ -20,7 +20,7 @@ class NavBar extends Component {
             >
               <i className="fab fa-github" /> GitHub
             </a>
-            <a href="#">
+            <a href="linkedin.com">
               <i className="fab fa-linkedin" /> Linkedin
             </a>
           </div>
