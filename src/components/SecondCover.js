@@ -38,12 +38,46 @@ class SecondCover extends Component {
             <h2>But, I also like code.</h2>
           </div>
           <div className="languages">
-            <p>JavaScript</p>
-            <p>Node.js</p>
-            <p>Ruby on Rails</p>
-            <p>R</p>
-            <p>CSS</p>
-            <p>HTML</p>
+            <div className="card">
+              <i className="icon-html5-alt" />
+              <p>HTML</p>
+            </div>
+            <div className="card">
+              <i className="icon-css3-alt" />
+              <p>CSS</p>
+            </div>
+            <div className="card">
+              <i className="icon-javascript-alt" />
+              <p>JavaScript</p>
+            </div>
+            <div className="card">
+              <i className="icon-reactjs" />
+              <p>React</p>
+            </div>
+            <div className="card">
+              <i className="icon-nodejs" />
+              <p>Node.js</p>
+            </div>
+            <div className="card">
+              <i className="icon-ruby-on-rails-alt" />
+              <p>Ruby on Rails</p>
+            </div>
+            <div className="card">
+              <i className="icon-ubuntu" />
+              <p>Linux Ubuntu</p>
+            </div>
+            <div className="card">
+              <i className="icon-mongodb" />
+              <p>NoSQL</p>
+            </div>
+            <div className="card">
+              <i className="icon-database" />
+              <p>SQL</p>
+            </div>
+            <div className="card">
+              <i className="icon-git" />
+              <p>Git</p>
+            </div>
           </div>
         </div>
         <div
