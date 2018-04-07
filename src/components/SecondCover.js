@@ -38,45 +38,53 @@ class SecondCover extends Component {
             <h2>But, I also like code.</h2>
           </div>
           <div className="languages">
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-html5-alt" />
               <p>HTML</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-css3-alt" />
               <p>CSS</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-javascript-alt" />
               <p>JavaScript</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-reactjs" />
               <p>React</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-nodejs" />
               <p>Node.js</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-ruby-on-rails-alt" />
               <p>Ruby on Rails</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-ubuntu" />
               <p>Linux Ubuntu</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-mongodb" />
               <p>NoSQL</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-database" />
               <p>SQL</p>
             </div>
-            <div className="card">
+            <div className="card" data-aos="zoom-out">
               <i className="icon-git" />
               <p>Git</p>
+            </div>
+            <div className="card" data-aos="zoom-out">
+              <i className="icon-npm" />
+              <p>Npm</p>
+            </div>
+            <div className="card" data-aos="zoom-out">
+              <i className="icon-shell" />
+              <p>Command Line</p>
             </div>
           </div>
         </div>

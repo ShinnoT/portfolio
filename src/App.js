@@ -8,8 +8,16 @@ import Technologies from "./components/Technologies";
 import PersonalProjects from "./components/PersonalProjects";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
+import AOS from "aos";
+
+import "../node_modules/aos/dist/aos.css";
 
 class App extends Component {
+  componentDidMount() {
+    AOS.init({
+      duration: 1000
+    });
+  }
   render() {
     return (
       <div className="App">
