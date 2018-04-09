@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.Gif {
+  .project-size {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px $brand-pink;
+    transition: 0.2s ease;
+    background-color: $brand-pink;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    // font-weight: bolder;
+    margin: 50px;
+    &:hover {
+      box-shadow: 0 0 50px $brand-pink;
+      cursor: pointer;
+    }
+    .project-icon {
+      margin-top: 10px;
+      font-size: 90px;
+    }
+  }
+  .static {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  // .static {
+  //   position: absolute;
+  //   &:hover {
+  //     opacity: 0;
+  //   }
+  // }
+}

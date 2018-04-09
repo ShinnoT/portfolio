@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Header, Image, Modal } from "semantic-ui-react";
+import Gif from "./Gif";
 
 const staticChat = require("./../cropped-chat.png");
 const gifChat = require("./../cropped-chat.gif");
@@ -21,76 +23,22 @@ class PersonalProjects extends Component {
           <h1>Personal Projects</h1>
           <div className="projects-list">
             <div className="gif">
-              <img
-                src={staticChat}
-                alt="chat app"
-                className="static project-size"
-              />
-              <img
-                src={gifChat}
-                alt="chat app gif"
-                className="non-static project-size"
-              />
+              <Gif title="Chat App" classes="fas fa-comments project-icon" />
             </div>
             <div className="gif">
-              <img
-                src={staticTours}
-                alt="tours app"
-                className="static project-size"
-              />
-              <img
-                src={gifTours}
-                alt="tours app gif"
-                className="non-static project-size"
-              />
+              <Gif title="Tour App" classes="fas fa-plane project-icon" />
             </div>
             <div className="gif">
-              <img
-                src={staticScoreKeep}
-                alt="score keep"
-                className="static project-size"
-              />
-              <img
-                src={gifScoreKeep}
-                alt="scoreK gif"
-                className="non-static project-size"
-              />
+              <Gif title="Scoring App" classes="fas fa-star project-icon" />
             </div>
             <div className="gif">
-              <img
-                src={staticShortLink}
-                alt="shortlink"
-                className="static project-size"
-              />
-              <img
-                src={gifShortLink}
-                alt="srtlnk gif"
-                className="non-static project-size"
-              />
+              <Gif title="Link App" classes="fas fa-link project-icon" />
             </div>
             <div className="gif">
-              <img
-                src={staticTetris}
-                alt="tetris"
-                className="static project-size"
-              />
-              <img
-                src={gifTetris}
-                alt="tetris gif"
-                className="non-static project-size"
-              />
+              <Gif title="Tetris" classes="fas fa-gamepad project-icon" />
             </div>
             <div className="gif">
-              <img
-                src={staticWeather}
-                alt="weather"
-                className="static project-size"
-              />
-              <img
-                src={gifWeather}
-                alt="weather gif"
-                className="non-static project-size"
-              />
+              <Gif title="Weather CLI" classes="fas fa-sun project-icon" />
             </div>
           </div>
         </div>
