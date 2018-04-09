@@ -18,12 +18,23 @@
       width: 80%;
       height: 80vh;
       margin: 0 auto;
-      background: red;
+      // background: red;
       margin-top: 30px;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+      flex-wrap: wrap;
       .gif {
+        .project-size {
+          width: 450px;
+          height: auto;
+          box-shadow: 0 0 60px $brand-pink;
+          transition: 0.2s ease;
+          &:hover {
+            box-shadow: none;
+            width: 700px;
+          }
+        }
         .static {
           position: absolute;
           &:hover {

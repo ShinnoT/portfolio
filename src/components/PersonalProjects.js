@@ -2,6 +2,16 @@ import React, { Component } from "react";
 
 const staticChat = require("./../cropped-chat.png");
 const gifChat = require("./../cropped-chat.gif");
+const staticTours = require("./../cropped-hidden-tours.png");
+const gifTours = require("./../cropped-hidden-tours.gif");
+const staticScoreKeep = require("./../cropped-score-keep.png");
+const gifScoreKeep = require("./../cropped-score-keep.gif");
+const staticShortLink = require("./../cropped-shortlink.png");
+const gifShortLink = require("./../cropped-shortlink.gif");
+const staticTetris = require("./../cropped-tetris.png");
+const gifTetris = require("./../cropped-tetris.gif");
+const staticWeather = require("./../cropped-weather.png");
+const gifWeather = require("./../cropped-weather.gif");
 
 class PersonalProjects extends Component {
   render() {
@@ -11,36 +21,76 @@ class PersonalProjects extends Component {
           <h1>Personal Projects</h1>
           <div className="projects-list">
             <div className="gif">
-              <img src={staticChat} alt="" className="static" />
-              <img src={gifChat} alt="" className="non-static" />
-            </div>
-            <div className="gif">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Bicycle.svg/444px-Bicycle.svg.png"
-                alt=""
-                className="static"
+                src={staticChat}
+                alt="chat app"
+                className="static project-size"
               />
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bananas.svg/560px-Bananas.svg.png"
-                alt=""
-                className="non-static"
+                src={gifChat}
+                alt="chat app gif"
+                className="non-static project-size"
               />
             </div>
             <div className="gif">
-              <img src="" alt="" className="static" />
-              <img src="" alt="" className="non-static" />
+              <img
+                src={staticTours}
+                alt="tours app"
+                className="static project-size"
+              />
+              <img
+                src={gifTours}
+                alt="tours app gif"
+                className="non-static project-size"
+              />
             </div>
             <div className="gif">
-              <img src="" alt="" className="static" />
-              <img src="" alt="" className="non-static" />
+              <img
+                src={staticScoreKeep}
+                alt="score keep"
+                className="static project-size"
+              />
+              <img
+                src={gifScoreKeep}
+                alt="scoreK gif"
+                className="non-static project-size"
+              />
             </div>
             <div className="gif">
-              <img src="" alt="" className="static" />
-              <img src="" alt="" className="non-static" />
+              <img
+                src={staticShortLink}
+                alt="shortlink"
+                className="static project-size"
+              />
+              <img
+                src={gifShortLink}
+                alt="srtlnk gif"
+                className="non-static project-size"
+              />
             </div>
             <div className="gif">
-              <img src="" alt="" className="static" />
-              <img src="" alt="" className="non-static" />
+              <img
+                src={staticTetris}
+                alt="tetris"
+                className="static project-size"
+              />
+              <img
+                src={gifTetris}
+                alt="tetris gif"
+                className="non-static project-size"
+              />
+            </div>
+            <div className="gif">
+              <img
+                src={staticWeather}
+                alt="weather"
+                className="static project-size"
+              />
+              <img
+                src={gifWeather}
+                alt="weather gif"
+                className="non-static project-size"
+              />
             </div>
           </div>
         </div>
