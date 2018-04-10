@@ -20,23 +20,17 @@
       }
     }
     .right-content {
-      // width: 15%;
-      // margin-right: 10px;
       display: flex;
-
       a {
         text-decoration: none;
         padding: 4px 8px;
         border-bottom: 1px solid white;
-        // border-radius: 50px;
         color: white;
         text-align: center;
         line-height: 0;
         margin-right: 20px;
         transition: 0.5s ease;
         &:hover {
-          // border: 1px solid $brand-off-white;
-          // background-color: $brand-skin-color;
           color: $brand-dark-blue;
           border-color: $brand-dark-blue;
         }
