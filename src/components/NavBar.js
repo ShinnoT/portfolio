@@ -8,7 +8,7 @@ class NavBar extends Component {
       <div className="NavBar">
         <nav className="navbar">
           <div className="left-content">
-            <a href="localhost:3000">
+            <a href="/">
               <img src={logo} alt="logo" />
             </a>
           </div>

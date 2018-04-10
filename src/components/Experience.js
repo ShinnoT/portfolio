@@ -11,7 +11,13 @@ class Experience extends Component {
             <div className="job-description">
               <p>Back-end Ruby on Rails Web Developer (Software Engineer).</p>
               <i className="fas fa-home job-icon" />
-              <a href="https://live-n-tokyo.com/">visit</a>
+              <a
+                href="https://live-n-tokyo.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                visit
+              </a>
             </div>
           </div>
           <div className="job">
@@ -19,7 +25,13 @@ class Experience extends Component {
             <div className="job-description">
               <p>Full-stack Node.js Web Developer (Software Engineer).</p>
               <i className="fas fa-shipping-fast job-icon" />
-              <a href="https://www.shipandco.com/en/">visit</a>
+              <a
+                href="https://www.shipandco.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                visit
+              </a>
             </div>
           </div>
           <div className="job">
@@ -30,7 +42,13 @@ class Experience extends Component {
                 bootcamp.
               </p>
               <i className="fas fa-graduation-cap job-icon" />
-              <a href="https://www.lewagon.com/tokyo">visit</a>
+              <a
+                href="https://www.lewagon.com/tokyo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                visit
+              </a>
             </div>
           </div>
         </div>
