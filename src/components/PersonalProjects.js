@@ -2,17 +2,11 @@ import React, { Component } from "react";
 import Gif from "./Gif";
 import Modal from "react-modal";
 
-const staticChat = require("./../cropped-chat.png");
 const gifChat = require("./../cropped-chat.gif");
-const staticTours = require("./../cropped-hidden-tours.png");
 const gifTours = require("./../cropped-hidden-tours.gif");
-const staticScoreKeep = require("./../cropped-score-keep.png");
 const gifScoreKeep = require("./../cropped-score-keep.gif");
-const staticShortLink = require("./../cropped-shortlink.png");
 const gifShortLink = require("./../cropped-shortlink.gif");
-const staticTetris = require("./../cropped-tetris.png");
 const gifTetris = require("./../cropped-tetris.gif");
-const staticWeather = require("./../cropped-weather.png");
 const gifWeather = require("./../cropped-weather.gif");
 
 Modal.defaultStyles.overlay.backgroundColor = "gray";
