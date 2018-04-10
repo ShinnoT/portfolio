@@ -8,6 +8,7 @@ class Gif extends Component {
           className="static project-size"
           data-aos="fade-down"
           data-aos-duration="3000"
+          onClick={this.props.onClick}
         >
           <p>{this.props.title}</p>
           <i className={this.props.classes} />
