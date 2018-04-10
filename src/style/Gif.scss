@@ -11,6 +11,11 @@
       height: 250px;
       margin: 30px;
     }
+    @media screen and (max-width: 1200px) {
+      width: 230px;
+      height: 230px;
+      margin: 25px;
+    }
     width: 300px;
     height: 300px;
     box-shadow: 0 0 10px $brand-pink;
