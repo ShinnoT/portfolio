@@ -21,8 +21,8 @@ class NavBar extends Component {
               <i className="fab fa-github" /> GitHub
             </a>
             <a
-              href="www.linkedin.com/in/shinnosuke-taguchi-32570913a"
-              targe="_blank"
+              href="https://www.linkedin.com/in/shinnosuke-taguchi-32570913a"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-linkedin" /> Linkedin
