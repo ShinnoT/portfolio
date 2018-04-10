@@ -4,4 +4,27 @@
   width: 100%;
   height: 100vh;
   background-color: $brand-pink;
+  .cannot-view {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cannot-view-info {
+      width: 70%;
+      height: 60%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 20px;
+      }
+      .cannot-icon {
+        margin-top: 30px;
+        font-size: 60px;
+      }
+    }
+  }
 }
