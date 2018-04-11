@@ -42,6 +42,18 @@ class App extends Component {
             </div>
           </div>
         </MediaQuery>
+        <MediaQuery maxDeviceHeight={800}>
+          <div className="cannot-view">
+            <div className="cannot-view-info">
+              <p>
+                Dear site visitor, HOW DARE YOU VIEW MY SITE ON A SMALL SCREEN.
+                Please whip out your laptop and come back for a better
+                experience :)
+              </p>
+              <i className="fas fa-exclamation-circle cannot-icon" />
+            </div>
+          </div>
+        </MediaQuery>
       </div>
     );
   }
