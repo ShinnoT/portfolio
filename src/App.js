@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MediaQuery minDeviceWidth={1100}>
+        <MediaQuery minDeviceWidth={1100} minDeviceHeight={800}>
           <NavBar />
           <Cover />
           <SecondCover />
