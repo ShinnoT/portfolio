@@ -40,8 +40,8 @@ class App extends Component {
   }
 
   renderApp() {
-    const screenSize = this.state.width > 1140 && this.state.height > 800;
-    const innerSize = this.state.width > 1140 && this.state.height > 800;
+    const screenSize = this.state.width > 1000 && this.state.height > 700;
+    const innerSize = this.state.width > 1000 && this.state.height > 700;
     if (screenSize || innerSize) {
       return (
         <div className="App">
