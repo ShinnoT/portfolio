@@ -38,9 +38,6 @@ class App extends Component {
   }
 
   renderApp() {
-    console.log("width: ", this.state.width);
-    console.log("height: ", this.state.height);
-
     if (this.state.width > 1140 && this.state.height > 800) {
       return (
         <div className="App">
