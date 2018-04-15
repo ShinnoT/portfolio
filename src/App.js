@@ -31,7 +31,10 @@ class App extends Component {
   }
 
   updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
+    this.setState({
+      width: window.screen.availWidth,
+      height: window.screen.availHeight
+    });
   }
 
   renderApp() {
