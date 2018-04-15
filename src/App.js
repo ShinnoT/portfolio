@@ -15,7 +15,7 @@ import "../node_modules/aos/dist/aos.css";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { width: 0, height: 0 };
+    this.state = { width: 0, height: 0, innerWidth: 0, innerHeight: 0 };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.renderApp = this.renderApp.bind(this);
   }
@@ -33,12 +33,16 @@ class App extends Component {
   updateWindowDimensions() {
     this.setState({
       width: window.screen.availWidth,
-      height: window.screen.availHeight
+      height: window.screen.availHeight,
+      innerWidth: window.innerWidth,
+      innerHeight: window.innerHeight
     });
   }
 
   renderApp() {
-    if (this.state.width > 1140 && this.state.height > 800) {
+    const screenSize = this.state.width > 1140 && this.state.height > 800;
+    const innerSize = this.state.width > 1140 && this.state.height > 800;
+    if (screenSize || innerSize) {
       return (
         <div className="App">
           <NavBar />
